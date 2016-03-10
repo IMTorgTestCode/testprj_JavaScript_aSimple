@@ -8,6 +8,9 @@
 function Animal(name){
 
 	this.MaxAnimals = 5;
+	/**
+	 * Doxygen doc tag githubstatstag:{ "thisIs": "classVariable" }
+	 */
 	this.NumOfAnimals = 1;		// <<< broke		
 	
 	this._name = name;
@@ -17,7 +20,9 @@ function Animal(name){
 	this._color = "gray";
 
 }
-
+	/**
+	* Doxygen doc tag githubstatstag:{ "thisIs": "classMethod" }
+	*/
 
 Animal.prototype = {
 	constructor: Animal,
